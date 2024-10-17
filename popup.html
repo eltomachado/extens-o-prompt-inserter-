@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Prompt Inserter</title>
+    <style>
+      body {
+        width: 200px;
+        padding: 10px;
+      }
+      textarea {
+        width: 100%;
+        height: 80px;
+      }
+      .button-container {
+        display: flex;
+        justify-content: space-between;
+      }
+      button {
+        margin-top: 5px;
+        width: 48%; 
+      }
+      .link-container {
+        margin-top: 10px;
+      }
+      .link-container a {
+        color: #1a73e8;
+        text-decoration: none;
+        font-size: 14px;
+      }
+      .link-container a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>Insira o prompt</h3>
+    <textarea id="prompt"></textarea>
+    <div class="button-container">
+      <button id="insert">Gerar Imagens</button>
+    </div>
+    <div class="link-container">
+      <p>Desenvolvido por Eltin Machado. Confira meu canal no YouTube:</p>
+      <a href="https://www.youtube.com/@EltinMachado" target="_blank">Eltin Machado no YouTube</a>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
